@@ -1,31 +1,43 @@
 # @aws-amplify/ui-react
 
+## 2.13.1
+
+### Patch Changes
+
+- [#1608](https://github.com/aws-amplify/amplify-ui/pull/1608) [`4dee728f2`](https://github.com/aws-amplify/amplify-ui/commit/4dee728f25735ce8bc8793806a395dfcee579522) Thanks [@reesscot](https://github.com/reesscot)! - Remove sourcemaps from rollup build
+
+- Updated dependencies [[`e20720a89`](https://github.com/aws-amplify/amplify-ui/commit/e20720a894ccb2cfcc7ede7160299e082ec76fd2), [`4dee728f2`](https://github.com/aws-amplify/amplify-ui/commit/4dee728f25735ce8bc8793806a395dfcee579522)]:
+  - @aws-amplify/ui@3.4.2
+
 ## 2.13.0
 
 ### Minor Changes
 
 - [#1566](https://github.com/aws-amplify/amplify-ui/pull/1566) [`7ce9dd531`](https://github.com/aws-amplify/amplify-ui/commit/7ce9dd5313b85d9f4b4cab8c7e329e37551e1690) Thanks [@jacoblogan](https://github.com/jacoblogan)! - added useBreakpointValue hook.
-      Used with either a breakpoint object or array
-    ```
-    export const UseBreakpointValueObjectExample = () => {
-      const variation = useBreakpointValue({
-        base: 'info',
-        small: 'warning',
-        medium: 'error',
-        large: 'success',
-      });
+  Used with either a breakpoint object or array
 
-      return <Alert variation={variation}>Responsive Alert</Alert>;
-    };
-    ```
-    OR
-    ```
-    export const UseBreakpointValueArrayExample = () => {
-      const variation = useBreakpointValue(['info', 'warning', 'error', 'success']);
+  ```
+  export const UseBreakpointValueObjectExample = () => {
+    const variation = useBreakpointValue({
+      base: 'info',
+      small: 'warning',
+      medium: 'error',
+      large: 'success',
+    });
 
-      return <Alert variation={variation}>Responsive Alert</Alert>;
-    };
-    ```
+    return <Alert variation={variation}>Responsive Alert</Alert>;
+  };
+  ```
+
+  OR
+
+  ```
+  export const UseBreakpointValueArrayExample = () => {
+    const variation = useBreakpointValue(['info', 'warning', 'error', 'success']);
+
+    return <Alert variation={variation}>Responsive Alert</Alert>;
+  };
+  ```
 
 ### Patch Changes
 

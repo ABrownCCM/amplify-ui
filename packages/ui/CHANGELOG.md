@@ -1,5 +1,13 @@
 # @aws-amplify/ui
 
+## 3.4.2
+
+### Patch Changes
+
+- [#1617](https://github.com/aws-amplify/amplify-ui/pull/1617) [`e20720a89`](https://github.com/aws-amplify/amplify-ui/commit/e20720a894ccb2cfcc7ede7160299e082ec76fd2) Thanks [@hbuchel](https://github.com/hbuchel)! - fix: remove double border on TextField outer components
+
+* [#1608](https://github.com/aws-amplify/amplify-ui/pull/1608) [`4dee728f2`](https://github.com/aws-amplify/amplify-ui/commit/4dee728f25735ce8bc8793806a395dfcee579522) Thanks [@reesscot](https://github.com/reesscot)! - Remove sourcemaps from rollup build
+
 ## 3.4.1
 
 ### Patch Changes
